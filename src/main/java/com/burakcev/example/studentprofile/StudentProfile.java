@@ -1,5 +1,6 @@
-package com.burakcev.example;
+package com.burakcev.example.studentprofile;
 
+import com.burakcev.example.student.Student;
 import jakarta.persistence.*;
 
 @Entity

@@ -1,5 +1,6 @@
-package com.burakcev.example;
+package com.burakcev.example.school;
 
+import com.burakcev.example.student.Student;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

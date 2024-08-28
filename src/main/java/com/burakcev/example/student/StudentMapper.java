@@ -1,13 +1,10 @@
-package com.burakcev.example;
+package com.burakcev.example.student;
 
+import com.burakcev.example.school.School;
 import org.springframework.stereotype.Service;
 
 @Service
 public class StudentMapper {
-
-    public StudentResponseDto toStudentResponseDto(Student student){
-        return  new StudentResponseDto(student.getFirstname(),student.getLastname(),student.getEmail());
-    }
 
     public Student toStudent(StudentDto dto){
         var student = new Student();
@@ -21,4 +18,10 @@ public class StudentMapper {
 
         return student;
     }
+
+    public StudentResponseDto toStudentResponseDto(Student student){
+        return  new StudentResponseDto(student.getFirstname(),student.getLastname(),student.getEmail());
+    }
+
+
 }

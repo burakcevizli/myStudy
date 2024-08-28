@@ -1,4 +1,4 @@
-package com.burakcev.example;
+package com.burakcev.example.school;
 
 import org.springframework.stereotype.Service;
 

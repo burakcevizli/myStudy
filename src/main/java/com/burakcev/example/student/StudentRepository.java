@@ -1,4 +1,4 @@
-package com.burakcev.example;
+package com.burakcev.example.student;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.*;
